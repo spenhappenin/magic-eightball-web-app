@@ -1,0 +1,18 @@
+
+	<div class='main'>
+		<div class='ball'>
+			<div class='text'>
+				<% if @question %>
+					<p><%= @answer %></p>
+				<% end %>
+			</div>
+		</div>
+		<div class='question'>
+			<form method='POST' action='/'>
+				<input class ='input-box' type='text' name='question' required />
+				<input class='input-submit' type='submit' />
+			</form>
+		</div>
+	</div>
+
+

@@ -1,0 +1,111 @@
+* {
+	/*border: 1px solid red;*/
+}
+
+body {
+	background-color: #2A302D;
+	color: #fff;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #fff;
+}
+
+.logo {
+	margin-left: 20px;
+}
+
+.main h1 {
+	font-family: 'Acme', sans-serif;
+}
+
+nav ul {
+	display: flex;
+
+}
+
+nav ul li {
+	list-style: none;
+	padding-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul li a:hover {
+	color: #7CB8BD
+}
+
+hr {
+}
+
+.main {
+	width: 100%;
+	display: flex;
+	/*align-items: center;*/
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.question {
+	display: flex;
+	justify-content: center;
+
+	align-items: center;
+	height: 100px;
+}
+
+.question .input-box {
+	font-size: 15px;
+	width: 230px;
+	height: 34px;
+	border: 2px solid black;
+}
+
+.question .input-submit {
+	font-size: 15px;
+	width: 70px;
+	height: 34px;
+	border: 2px solid black;
+	margin-right: 10px;
+
+}
+
+.ball {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 550px;
+	height: 750px;
+	background-image: url(/images/magic-eight.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 20px;
+}
+
+.ball .text {
+	margin-bottom: 200px;
+}
+
+.text  {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
