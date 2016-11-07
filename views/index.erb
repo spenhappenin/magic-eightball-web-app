@@ -3,15 +3,18 @@
 		<div class='ball'>
 			<div class='text'>
 				<% if @question %>
-					<p><%= @answer %></p>
+					<article><%= @answer %></article>				
 				<% end %>
 			</div>
 		</div>
-		<div class='question'>
-			<form method='POST' action='/'>
-				<input class ='input-box' type='text' name='question' required />
-				<input class='input-submit' type='submit' />
-			</form>
+		<div class='side-menu'>
+			<h2>Ask the Magic Eightball!</h2>
+			<div class='question'>
+				<form method='POST' action='/'>
+					<input class ='input-box' type='text' name='question' placeholder='Enter question' 			required />
+					<input class='input-submit' type='submit' />
+				</form>
+			</div>
 		</div>
 	</div>
 

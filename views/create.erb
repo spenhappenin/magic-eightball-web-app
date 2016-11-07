@@ -1,0 +1,13 @@
+
+<div class='create-main'>
+	<h2>Add your own custom Magic Eightball answers:</h2>
+ 	<form method='POST' action='/create'>
+		<input id ='answer-box' class ='input-box' type='text' name='add_answer' placeholder='Enter answer:'	required />
+		<input id ='answer-button' class ='input-submit' type='submit' />
+ 	</form>
+	
+ 	<% if @add_answer %>
+ 		<%= "'#{@add_answer}' has been added to the answer list!" %>
+ 		<% $new_answers << @add_answer %> 
+ 	<% end %>  
+ </div>

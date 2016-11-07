@@ -1,0 +1,13 @@
+<div class='reset-main'>
+	<h2>Reset To Default Answers?</h2>
+	
+	<form method='POST' action='/reset'>
+		<input class='yes-button' type='submit' name='yes' value='YES' required />
+	</form>
+	
+	<% if @yes %>
+		<% $new_answers = $default_answers.clone %>
+		<%= 'Answers have been reset to default' %>
+	<% elsif @no %>
+	<% end %> 
+</div>
